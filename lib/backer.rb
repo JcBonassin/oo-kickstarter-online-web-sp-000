@@ -3,7 +3,7 @@ class Backer
   attr_reader :projects
 
   def initialize
-    @backed_projects = projects
+    @backed_projects = []
   end
 
 end
